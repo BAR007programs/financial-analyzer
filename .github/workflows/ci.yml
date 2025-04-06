@@ -24,18 +24,11 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y qpdf poppler-utils tesseract-ocr ghostscript
 
-      - name: Create and activate venv
+      - name: Install Python dependencies and package
         run: |
-          python3 -m venv venv
-          source venv/bin/activate
-          pip install --upgrade pip setuptools wheel
-
-      - name: Install package in editable mode
-        run: |
-          source venv/bin/activate
+          python -m pip install --upgrade pip setuptools wheel
           pip install -e .
 
       - name: Run test suite
         run: |
-          source venv/bin/activate
-          pytest -q
+          python -m pytest -q
