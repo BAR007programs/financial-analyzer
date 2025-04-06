@@ -1,0 +1,10 @@
+pandas
+pdfplumber
+camelot-py[cv]
+pytesseract
+pdf2image
+pikepdf
+numpy
+opencv-python
+pillow
+reportlab

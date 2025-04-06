@@ -1,0 +1,16 @@
+README.md
+analyzer.py
+main.py
+pdf_processor.py
+setup.py
+verify_file.py
+financial_analyzer.egg-info/PKG-INFO
+financial_analyzer.egg-info/SOURCES.txt
+financial_analyzer.egg-info/dependency_links.txt
+financial_analyzer.egg-info/entry_points.txt
+financial_analyzer.egg-info/requires.txt
+financial_analyzer.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_financial_analyzer.py
+tests/test_pdf_processor.py
+tests/test_verify_file.py

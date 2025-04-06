@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: financial-analyzer
+Version: 0.1.0
+Summary: AI-powered financial PDF extractor
+Home-page: https://github.com/yourusername/financial-analyzer
+Author: Brian Rwabwogo
+Author-email: brianrwabogo@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: pdfplumber
+Requires-Dist: camelot-py[cv]
+Requires-Dist: pytesseract
+Requires-Dist: pdf2image
+Requires-Dist: pikepdf
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: reportlab
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Financial Analyzer
+
+AI-powered command-line tool to extract key financial metrics (e.g., revenue, expenses, profit) from PDF financial statements.
+
+## Installation
+
+Requires Python 3.10+ and system dependencies:
+
+```bash
+# macOS
+brew install qpdf poppler tesseract ghostscript
+
+# Ubuntu/Debian
+sudo apt-get update
+sudo apt-get install qpdf poppler-utils tesseract-ocr ghostscript
+
